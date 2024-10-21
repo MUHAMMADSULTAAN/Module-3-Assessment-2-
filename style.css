@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/backround/picture\ 1.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: #ffffff; 
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px 0; 
+    font-size: 2.5em; 
+}
+
+.logo {
+    width: 100px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+}
+
+main {
+    padding: 20px; 
+    text-align: center; 
+}
+
+.food-image {
+    max-width: 80%; /* Limit image size */
+    height: auto; 
+    border-radius: 10px; 
+    margin: 20px 0; /* Space around the image */
+}
+
+.description {
+    font-size: 1.2em; /* Font size for readability */
+    line-height: 1.5; /* Increased line spacing */
+    margin: 20px auto; /* Centered with space around */
+    max-width: 600px; /* Limit the width of the text block */
+}
+
+footer {
+    text-align: center; 
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8); 
+    color: #fff;
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #ff0000; 
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .food-image {
+        max-width: 90%; /* Adjust image size for smaller screens */
+    }
+}

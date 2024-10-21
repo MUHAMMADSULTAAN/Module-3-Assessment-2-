@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Pizza Details</title>
+</head>
+<body>
+    <header>
+        <h1>Meal Details: Pizza</h1>
+    </header>
+
+    <main>
+        <img src="./picture 1.jpg" alt="Pizza" class="food-image">
+        <h2>Margherita Pizza</h2>
+        <p>Price: R200</p>
+        <p>Serving Size: 400g</p>
+        <p>A classic pizza topped with fresh mozzarella cheese, ripe tomatoes, and basil, served on a crispy thin crust.</p>
+
+        <h3>Add Extras:</h3>
+        <form action="../../thank you.html" method="get">
+            <ul>
+                <li><input type="checkbox" name="extras" value="extra_cheese"> Extra Cheese - R25</li>
+                <li><input type="checkbox" name="extras" value="pepperoni"> Pepperoni - R30</li>
+                <li><input type="checkbox" name="extras" value="mushrooms"> Extra Mushrooms - R20</li>
+                <li><input type="checkbox" name="extras" value="olives"> Olives - R15</li>
+                <li><input type="checkbox" name="extras" value="drink"> Drink - R25</li>
+            </ul>
+
+            <label for="notes">Additional Notes:</label>
+            <input type="text" id="notes" name="notes" placeholder="Enter any special requests">
+            <button type="submit">Place Order</button>
+        </form>
+    </main>
+
+    <footer>
+        <p><a href="../../index.html">Back to Home</a></p>
+    </footer>
+</body>
+</html>

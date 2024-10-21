@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Dim Sum Details</title>
+</head>
+<body>
+    <header>
+        <h1>Meal Details: Dim Sum</h1>
+    </header>
+
+    <main>
+        <img src="./picture 1.jpg" alt="Dim Sum" class="food-image">
+        <h2>Steamed Dim Sum Platter</h2>
+        <p>Price: R150</p>
+        <p>Serving Size: 200g</p>
+        <p>A delightful selection of traditional steamed dumplings filled with fresh vegetables, shrimp, and pork, served with soy sauce and chili oil.</p>
+
+        <h3>Add Extras:</h3>
+        <form action="../../thank you.html" method="get">
+            <ul>
+                <li><input type="checkbox" name="extras" value="sauce"> Extra Soy Sauce - R10</li>
+                <li><input type="checkbox" name="extras" value="chili"> Chili Oil - R15</li>
+                <li><input type="checkbox" name="extras" value="fried_rice"> Fried Rice - R30</li>
+                <li><input type="checkbox" name="extras" value="spring_rolls"> Spring Rolls - R25</li>
+                <li><input type="checkbox" name="extras" value="drink"> Drink - R25</li>
+            </ul>
+
+            <label for="notes">Additional Notes:</label>
+            <input type="text" id="notes" name="notes" placeholder="Enter any special requests">
+            <button type="submit">Place Order</button>
+        </form>
+    </main>
+
+    <footer>
+        <p><a href="../../index.html">Back to Home</a></p>
+    </footer>
+</body>
+</html>

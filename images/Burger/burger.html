@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Burger Details</title>
+</head>
+<body>
+    <header>
+        <h1>Meal Details: Burger</h1>
+    </header>
+
+    <main>
+        <img src="./picture 1.jpg" alt="Burger" class="food-image">
+        <h2>Classic Cheeseburger</h2>
+        <p>Price: R180</p>
+        <p>Serving Size: 250g</p>
+        <p>A juicy beef patty topped with melted cheese, fresh lettuce, tomatoes, pickles, and our special sauce, all served on a toasted bun.</p>
+
+        <h3>Add Extras:</h3>
+        <form action="../../thank you.html" method="get">
+            <ul>
+                <li><input type="checkbox" name="extras" value="bacon"> Bacon - R25</li>
+                <li><input type="checkbox" name="extras" value="extra_cheese"> Extra Cheese - R20</li>
+                <li><input type="checkbox" name="extras" value="avocado"> Avocado - R30</li>
+                <li><input type="checkbox" name="extras" value="fries"> Fries - R35</li>
+                <li><input type="checkbox" name="extras" value="drink"> Drink - R25</li>
+            </ul>
+
+            <label for="notes">Additional Notes:</label>
+            <input type="text" id="notes" name="notes" placeholder="Enter any special requests">
+            <button type="submit">Place Order</button>
+        </form>
+    </main>
+
+    <footer>
+        <p><a href="../../index.html">Back to Home</a></p>
+    </footer>
+</body>
+</html>

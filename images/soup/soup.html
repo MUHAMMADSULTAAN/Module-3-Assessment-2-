@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Soup Details</title>
+</head>
+<body>
+    <header>
+        <h1>Meal Details: Soup</h1>
+    </header>
+
+    <main>
+        <img src="./picture 1.jpg" alt="Soup" class="food-image">
+        <h2>Tomato Basil Soup</h2>
+        <p>Price: R90</p>
+        <p>Serving Size: 300g</p>
+        <p>A warm and comforting soup made with ripe tomatoes, fresh basil, and a touch of cream, served with crusty bread.</p>
+
+        <h3>Add Extras:</h3>
+        <form action="../../thank you.html" method="get">
+            <ul>
+                <li><input type="checkbox" name="extras" value="croutons"> Croutons - R10</li>
+                <li><input type="checkbox" name="extras" value="cheese"> Grated Cheese - R15</li>
+                <li><input type="checkbox" name="extras" value="extra_bread"> Extra Bread - R20</li>
+                <li><input type="checkbox" name="extras" value="basil"> Extra Basil - R5</li>
+                <li><input type="checkbox" name="extras" value="drink"> Drink - R25</li>
+            </ul>
+
+            <label for="notes">Additional Notes:</label>
+            <input type="text" id="notes" name="notes" placeholder="Enter any special requests">
+            <button type="submit">Place Order</button>
+        </form>
+    </main>
+
+    <footer>
+        <p><a href="../../index.html">Back to Home</a></p>
+    </footer>
+</body>
+</html>
